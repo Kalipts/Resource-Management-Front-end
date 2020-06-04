@@ -1,0 +1,16 @@
+.wrapper-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .wrapper-calendar {
+    background-color: rgba(255, 255, 255, 0.76);
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .wrapper-container ::after {
+    content: "";
+    clear: both;
+  }
+  

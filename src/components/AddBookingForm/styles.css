@@ -1,0 +1,18 @@
+.ces-day-pick {
+  height: 18px;
+  width: 100px;
+  color: black;
+  font-size: 14px;
+  line-height: 18px;
+  outline: 0;
+  border-width: 0 0 0;
+}
+
+.react-datepicker__day--selected {
+  background-color: #f15927;
+}
+
+.react-datepicker__day--selected:hover {
+  background-color: #f15927;
+  opacity: 0.5;
+}
